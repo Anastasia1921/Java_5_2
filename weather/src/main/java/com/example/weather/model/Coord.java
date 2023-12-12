@@ -8,7 +8,7 @@ import lombok.NonNull;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Coord {
-    private double latitude;
-    private double longitude;
+public class Coord{
+    public double lon;
+    public double lat;
 }
