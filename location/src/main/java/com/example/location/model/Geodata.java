@@ -13,7 +13,6 @@ import lombok.NonNull;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Geodata {
-
     @Id
     @GeneratedValue
     int id;
