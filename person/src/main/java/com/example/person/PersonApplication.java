@@ -1,4 +1,4 @@
-package ru.myHome.person;
+package com.example.person;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

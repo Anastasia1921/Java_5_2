@@ -1,11 +1,11 @@
-package ru.myHome.person.controller;
+package com.example.person.controller;
 
+import com.example.person.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.myHome.person.model.Person;
-import ru.myHome.person.repository.PersonRepository;
+import com.example.person.repository.PersonRepository;
 
 import java.util.Optional;
 

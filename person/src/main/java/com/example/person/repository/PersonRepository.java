@@ -1,8 +1,8 @@
-package ru.myHome.person.repository;
+package com.example.person.repository;
 
+import com.example.person.model.Person;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import ru.myHome.person.model.Person;
 
 @Repository
 public interface PersonRepository extends CrudRepository<Person, Integer> {
