@@ -1,4 +1,4 @@
-package com.example.weather.model;
+package com.example.location.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,15 +6,17 @@ import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
 
+@Entity
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
-public class WeatherByCoord {
+public class Geodata {
     @Id
     @GeneratedValue
-    private int id;
-
-    private Coord coord;
-    private Weather Weather;
+    int id;
+    @NonNull private double lon;
+    @NonNull private double lat;
+    @NonNull private String name;
 }

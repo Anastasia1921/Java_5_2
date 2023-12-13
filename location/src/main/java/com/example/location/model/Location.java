@@ -1,4 +1,4 @@
-package ru.myHome.location.model;
+package com.example.location.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
