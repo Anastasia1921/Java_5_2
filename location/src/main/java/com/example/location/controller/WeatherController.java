@@ -22,7 +22,7 @@ public class WeatherController {
         String url = String.format("http://localhost:8082/?lat=%s&lon=%s", geodata.getLat(), geodata.getLon());
         return restTemplate.getForObject(url, Weather.class);
     }
-
+    //
     @GetMapping
     public Optional<Geodata> getWeather(@RequestParam String location) {
         return repository.findByName(location);

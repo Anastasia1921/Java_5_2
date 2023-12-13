@@ -9,4 +9,5 @@ import java.util.Optional;
 @Repository
 public interface GeodataRepository extends CrudRepository<Geodata, Integer> {
     Optional<Geodata> findByName(String name);
+
 }
