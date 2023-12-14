@@ -13,8 +13,8 @@ import org.springframework.web.client.RestTemplate;
 public class WeatherController {
 
 
-    @Autowired
-    private RestTemplate restTemplate;
+   // @Autowired
+   private RestTemplate restTemplate = new RestTemplate();
     @Value("${appid}")
     private String appId;
     @Value("${url.weather}")
