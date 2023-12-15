@@ -13,3 +13,4 @@ public class AppPersonConfiguration {
         return new RestTemplate();
     }
 }
+

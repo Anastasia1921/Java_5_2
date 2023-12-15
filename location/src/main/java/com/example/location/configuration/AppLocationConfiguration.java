@@ -13,3 +13,4 @@ public class AppLocationConfiguration {
         return new RestTemplate();
     }
 }
+
